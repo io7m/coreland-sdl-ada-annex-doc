@@ -1,5 +1,6 @@
 (section
   (title "SDL.Video.Annex")
+  (contents)
 
   (para "The " (item ada_package "SDL.Video.Annex") " package
     provides various useful extensions to the standard "

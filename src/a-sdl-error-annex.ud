@@ -1,5 +1,6 @@
 (section
   (title "SDL.Error.Annex")
+  (contents)
 
   (para "The " (item ada_package "SDL.Error.Annex") " package
     provides various useful extensions to the standard "
