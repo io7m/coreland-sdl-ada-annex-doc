@@ -1,0 +1,20 @@
+(section
+  (ref "sdl_error_annex_raise_exception")
+  (title "SDL.Error.Annex.Raise_Exception")
+  (para procedure_desc "Raise exception with error message.")
+  (subsection
+    (title "Synopsis")
+    (para-verbatim procedure_synopsis
+"with SDL.Error.Annex;
+
+SDL_Error : exception;
+
+procedure Raise_Exception (Message : in String);
+"))
+  (subsection
+    (title "Description")
+    (para
+      "The " (item ada_procedure "Raise_Exception") " procedure
+      raises " (item ada_exception "SDL_Error") " with the current
+      error message from " (item ada_function "SDL.Error.Get_Error")
+      " in addition to the optional " (item parameter "Message") ".")))

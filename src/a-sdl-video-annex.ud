@@ -1,0 +1,8 @@
+(section
+  (title "SDL.Video.Annex")
+
+  (para "The " (item ada_package "SDL.Video.Annex") " package
+    provides various useful extensions to the standard "
+    (item ada_package "SDL.Video") " package.")
+
+  (include "a-sdl-video-annex-data_size.ud"))

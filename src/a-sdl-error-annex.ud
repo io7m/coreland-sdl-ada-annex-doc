@@ -1,0 +1,8 @@
+(section
+  (title "SDL.Error.Annex")
+
+  (para "The " (item ada_package "SDL.Error.Annex") " package
+    provides various useful extensions to the standard "
+    (item ada_package "SDL.Error") " package.")
+
+  (include "a-sdl-error-annex-raise_exception.ud"))

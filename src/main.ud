@@ -14,3 +14,5 @@
 (contents)
 
 (include "pkg.ud")
+(include "a-sdl-video-annex.ud")
+(include "a-sdl-error-annex.ud")

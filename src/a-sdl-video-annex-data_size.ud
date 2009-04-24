@@ -1,0 +1,17 @@
+(section
+  (ref "sdl_video_annex_data_size")
+  (title "SDL.Video.Annex.Data_Size")
+  (para function_desc "Calculate size of surface pixel data in bytes.")
+  (subsection
+    (title "Synopsis")
+    (para-verbatim function_synopsis
+"with SDL.Video.Annex;
+
+function Data_Size (Surface : in Surface_Access_t) return Natural;
+"))
+  (subsection
+    (title "Description")
+    (para
+      "The " (item ada_function "Data_Size") " function
+      calculates and returns the size of the pixel data
+      in " (item parameter "Surface") ".")))
